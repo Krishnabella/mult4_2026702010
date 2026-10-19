@@ -9,7 +9,7 @@ read_verilog synth/mult_array_netlist.v
 link_design mult_array
 
 # Clock period: 10 ns
-set T 2.60
+set T 10.0
 
 # Define the clock
 create_clock -name clk -period $T [get_ports clk]
