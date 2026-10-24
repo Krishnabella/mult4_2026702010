@@ -1,0 +1,16 @@
+Worked Example: 4-bit Unsigned Multiplication
+
+Operand A = 5 = 0101 (binary)
+Operand B = 7 = 0111 (binary)
+
+              0101
+          x   0111
+          --------
+              0101
+             0101
+            0101
+          --------
+           00100011
+
+Decimal result: 5 x 7 = 35
+Binary result: 00100011

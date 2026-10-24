@@ -1,0 +1,4 @@
+Gate-Level Simulation — SKY130A
+Command: iverilog -g2012 -DFUNCTIONAL "-DUNIT_DELAY=#1" -o gls tb/tb_mult_gls.v "$CELLS/primitives.v" "$CELLS/sky130_fd_sc_hd.v" synth/mult_array_netlist.v
+Result: PASS: 256 vectors checked, 0 errors
+Waveform: gls.vcd

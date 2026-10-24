@@ -1,0 +1,2 @@
+FAIL (expected negative test): expected=34, actual=35
+tb/tb_mult_error.v:32: $finish called at 46000 (1ps)

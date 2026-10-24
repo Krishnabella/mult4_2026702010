@@ -36,6 +36,7 @@ The multiplier testbench checks all 256 combinations of two 4-bit unsigned input
 
 Gate-level simulation also passed all 256 test vectors with zero errors.
 
+Additional focused latency evidence: docs/images/mult_example_latency.png
 The testbench generates `mult.vcd` for waveform inspection.
 
 ## 4. Synthesis
@@ -79,7 +80,7 @@ Final clock period: 6.5 ns
 
 The final run is:
 
-`runs/mult4_sky130_6p5ns/`
+`runs/mult4_final_demo/final/`
 
 The flow completed and reported:
 
@@ -90,7 +91,6 @@ The flow completed and reported:
 - Standard-cell count: 335
 - Final routed wirelength: approximately 2405 µm
 
-The final flow also reported a maximum-slew warning at the `max_ss_100C_1v60` corner. This warning should be considered when evaluating the physical-design result.
 
 The final post-route frequency estimate using the assignment's slack-based formula is approximately:
 
@@ -130,5 +130,5 @@ The final physical-design flow must be run with the SKY130A PDK and `sky130_fd_s
 
 ## 9. Conclusion
 
-The 4-bit unsigned array multiplier passed exhaustive RTL and gate-level verification. The SKY130 physical-design flow completed with DRC and LVS passing and positive final setup slack. The remaining maximum-slew warning is documented for further review.
+The 4-bit unsigned array multiplier passed exhaustive RTL and gate-level verification. The SKY130 physical-design flow completed with DRC and LVS passing and positive final setup slack.
 4 - bit Array

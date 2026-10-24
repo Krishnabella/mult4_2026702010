@@ -1,0 +1,10 @@
+design__instance__count: 1901
+design__instance__area: 17759.5
+design__instance__count__stdcell: 335
+design__instance__area__stdcell: 1241.19
+route__wirelength: 2405
+timing__setup__ws__corner:max_ss_100C_1v60: 0.08528022973623654
+timing__setup__tns__corner:max_ss_100C_1v60: 0
+magic__drc_error__count: 0
+klayout__drc_error__count: 0
+design__lvs_error__count: 0
